@@ -28,18 +28,8 @@ public:
     double dPorcentagemAnalistaSistemas      = 0.0;
     double dPorcentagemDBA                   = 0.0;
 
-    std::vector<long> aPesosAlternativasGestorProjetos        = {0};
-    std::vector<long> aPesosAlternativasTecnicoInfraestrutura = {0};
-    std::vector<long> aPesosAlternativasDesenvolvedorBackEnd  = {0};
-    std::vector<long> aPesosAlternativasDesenvolvedorFrontEnd = {0};
-    std::vector<long> aPesosAlternativasSuporteTecnico        = {0};
-    std::vector<long> aPesosAlternativasAnalistaSistemas      = {0};
-    std::vector<long> aPesosAlternativasDBA                   = {0};
-
     bool MostraMenu        (CQuizProfissoesTi& quizProfissoesTi);
     void DefinePorcentagens(CQuizProfissoesTi& quizProfissoesTi);
     void DefineProfissao   (CQuizProfissoesTi& quizProfissoesTi);
     void MostraResultados  (CQuizProfissoesTi& quizProfissoesTi);
-
-    void DefineMatchProfissao(std::vector<long> aPesosAlternativas);
 };

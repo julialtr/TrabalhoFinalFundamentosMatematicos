@@ -45,14 +45,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 1;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 3;
             quizProfissoesTi.lSomaPontosDBA                   += 1;
-
-            aPesosAlternativasGestorProjetos       .push_back(-4);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(-3);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(-5);
-            aPesosAlternativasSuporteTecnico       .push_back( 1);
-            aPesosAlternativasAnalistaSistemas     .push_back(-3);
-            aPesosAlternativasDBA                  .push_back( 1);
         }; break;
         case 'b':
         {
@@ -63,14 +55,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 1;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 3;
             quizProfissoesTi.lSomaPontosDBA                   -= 1;
-
-            aPesosAlternativasGestorProjetos       .push_back( 4);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 2);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 2);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 4);
-            aPesosAlternativasSuporteTecnico       .push_back( 1);
-            aPesosAlternativasAnalistaSistemas     .push_back( 3);
-            aPesosAlternativasDBA                  .push_back(-1);
         }; break;
         case 'c':
         {
@@ -81,14 +65,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 0;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 2;
             quizProfissoesTi.lSomaPontosDBA                   += 2;
-
-            aPesosAlternativasGestorProjetos       .push_back( 2);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 5);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-            aPesosAlternativasSuporteTecnico       .push_back( 0);
-            aPesosAlternativasAnalistaSistemas     .push_back(-2);
-            aPesosAlternativasDBA                  .push_back( 2);
         }; break;
         case 'd':
         {
@@ -99,14 +75,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        -= 5;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 3;
             quizProfissoesTi.lSomaPontosDBA                   += 2;
-
-            aPesosAlternativasGestorProjetos       .push_back( 5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-3);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 3);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 2);
-            aPesosAlternativasSuporteTecnico       .push_back(-5);
-            aPesosAlternativasAnalistaSistemas     .push_back( 3);
-            aPesosAlternativasDBA                  .push_back( 2);
         }; break;
         default: cout << "Opcao invalida." << endl;
             return false;
@@ -134,14 +102,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 5;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 3;
             quizProfissoesTi.lSomaPontosDBA                   -= 1;
-
-            aPesosAlternativasGestorProjetos       .push_back( 4);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 4);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(-1);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 4);
-            aPesosAlternativasSuporteTecnico       .push_back( 5);
-            aPesosAlternativasAnalistaSistemas     .push_back( 3);
-            aPesosAlternativasDBA                  .push_back(-1);
         }; break;
         case 'b':
         {
@@ -152,14 +112,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        -= 4;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 3;
             quizProfissoesTi.lSomaPontosDBA                   += 0;
-
-            aPesosAlternativasGestorProjetos       .push_back( 2);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 5);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-            aPesosAlternativasSuporteTecnico       .push_back(-4);
-            aPesosAlternativasAnalistaSistemas     .push_back(-3);
-            aPesosAlternativasDBA                  .push_back( 0);
         }; break;
         case 'c':
         {
@@ -170,14 +122,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 1;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 2;
             quizProfissoesTi.lSomaPontosDBA                   += 5;
-
-            aPesosAlternativasGestorProjetos       .push_back( 5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 0);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 1);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 4);
-            aPesosAlternativasSuporteTecnico       .push_back( 1);
-            aPesosAlternativasAnalistaSistemas     .push_back(-2);
-            aPesosAlternativasDBA                  .push_back( 5);
         }; break;
         case 'd':
         {
@@ -188,14 +132,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 2;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 4;
             quizProfissoesTi.lSomaPontosDBA                   -= 3;
-
-            aPesosAlternativasGestorProjetos       .push_back( 3);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 1);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 3);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-            aPesosAlternativasSuporteTecnico       .push_back( 2);
-            aPesosAlternativasAnalistaSistemas     .push_back( 4);
-            aPesosAlternativasDBA                  .push_back(-3);
         }; break;
         case 'e':
         {
@@ -206,14 +142,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 3;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 5;
             quizProfissoesTi.lSomaPontosDBA                   -= 4;
-
-            aPesosAlternativasGestorProjetos       .push_back(-5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(-4);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(-5);
-            aPesosAlternativasSuporteTecnico       .push_back( 3);
-            aPesosAlternativasAnalistaSistemas     .push_back(-5);
-            aPesosAlternativasDBA                  .push_back(-4);
         }; break;
         default: cout << "Opcao invalida." << endl;
             return false;
@@ -267,14 +195,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 2;
                 quizProfissoesTi.lSomaPontosDBA                   -= 1;
 
-                aPesosAlternativasGestorProjetos       .push_back( 3);
-                aPesosAlternativasTecnicoInfraestrutura.push_back( 5);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back( 2);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-                aPesosAlternativasSuporteTecnico       .push_back(-3);
-                aPesosAlternativasAnalistaSistemas     .push_back(-2);
-                aPesosAlternativasDBA                  .push_back(-1);
-
                 bAlternativaA = true;
             }; break;
             case 'b':
@@ -292,14 +212,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosSuporteTecnico        -= 2;
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      += 0;
                 quizProfissoesTi.lSomaPontosDBA                   -= 2;
-
-                aPesosAlternativasGestorProjetos       .push_back( 4);
-                aPesosAlternativasTecnicoInfraestrutura.push_back( 2);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back( 4);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-                aPesosAlternativasSuporteTecnico       .push_back(-2);
-                aPesosAlternativasAnalistaSistemas     .push_back( 0);
-                aPesosAlternativasDBA                  .push_back(-2);
 
                 bAlternativaB = true;
             }; break;
@@ -319,14 +231,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      += 3;
                 quizProfissoesTi.lSomaPontosDBA                   += 1;
 
-                aPesosAlternativasGestorProjetos       .push_back( 5);
-                aPesosAlternativasTecnicoInfraestrutura.push_back(-2);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back( 2);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back( 0);
-                aPesosAlternativasSuporteTecnico       .push_back( 1);
-                aPesosAlternativasAnalistaSistemas     .push_back( 3);
-                aPesosAlternativasDBA                  .push_back( 1);
-
                 bAlternativaC = true;
             }; break;
             case 'd':
@@ -344,14 +248,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosSuporteTecnico        += 5;
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      += 4;
                 quizProfissoesTi.lSomaPontosDBA                   += 3;
-
-                aPesosAlternativasGestorProjetos       .push_back(5);
-                aPesosAlternativasTecnicoInfraestrutura.push_back(3);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back(3);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back(2);
-                aPesosAlternativasSuporteTecnico       .push_back(5);
-                aPesosAlternativasAnalistaSistemas     .push_back(4);
-                aPesosAlternativasDBA                  .push_back(3);
 
                 bAlternativaD = true;
             }; break;
@@ -371,14 +267,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      += 5;
                 quizProfissoesTi.lSomaPontosDBA                   += 4;
 
-                aPesosAlternativasGestorProjetos       .push_back( 3);
-                aPesosAlternativasTecnicoInfraestrutura.push_back(-3);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back( 5);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back( 3);
-                aPesosAlternativasSuporteTecnico       .push_back( 2);
-                aPesosAlternativasAnalistaSistemas     .push_back( 5);
-                aPesosAlternativasDBA                  .push_back( 4);
-
                 bAlternativaE = true;
             }; break;
             case 'f':
@@ -396,14 +284,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosSuporteTecnico        += 5;
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      += 2;
                 quizProfissoesTi.lSomaPontosDBA                   += 3;
-
-                aPesosAlternativasGestorProjetos       .push_back(5);
-                aPesosAlternativasTecnicoInfraestrutura.push_back(5);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back(3);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back(1);
-                aPesosAlternativasSuporteTecnico       .push_back(5);
-                aPesosAlternativasAnalistaSistemas     .push_back(2);
-                aPesosAlternativasDBA                  .push_back(3);
 
                 bAlternativaF = true;
             }; break;
@@ -423,14 +303,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      += 4;
                 quizProfissoesTi.lSomaPontosDBA                   += 5;
 
-                aPesosAlternativasGestorProjetos       .push_back(4);
-                aPesosAlternativasTecnicoInfraestrutura.push_back(4);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back(2);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back(5);
-                aPesosAlternativasSuporteTecnico       .push_back(3);
-                aPesosAlternativasAnalistaSistemas     .push_back(4);
-                aPesosAlternativasDBA                  .push_back(5);
-
                 bAlternativaG = true;
             }; break;
             case 'h':
@@ -448,14 +320,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosSuporteTecnico        += 5;
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 3;
                 quizProfissoesTi.lSomaPontosDBA                   += 3;
-
-                aPesosAlternativasGestorProjetos       .push_back( 2);
-                aPesosAlternativasTecnicoInfraestrutura.push_back( 3);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back( 5);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back( 3);
-                aPesosAlternativasSuporteTecnico       .push_back( 5);
-                aPesosAlternativasAnalistaSistemas     .push_back(-3);
-                aPesosAlternativasDBA                  .push_back( 3);
 
                 bAlternativaH = true;
             }; break;
@@ -475,14 +339,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      += 5;
                 quizProfissoesTi.lSomaPontosDBA                   += 5;
 
-                aPesosAlternativasGestorProjetos       .push_back( 5);
-                aPesosAlternativasTecnicoInfraestrutura.push_back(-1);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back( 3);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-                aPesosAlternativasSuporteTecnico       .push_back( 2);
-                aPesosAlternativasAnalistaSistemas     .push_back( 5);
-                aPesosAlternativasDBA                  .push_back( 5);
-
                 bAlternativaI = true;
             }; break;
             case 'j':
@@ -500,14 +356,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
                 quizProfissoesTi.lSomaPontosSuporteTecnico        += 4;
                 quizProfissoesTi.lSomaPontosAnalistaSistemas      += 2;
                 quizProfissoesTi.lSomaPontosDBA                   += 5;
-
-                aPesosAlternativasGestorProjetos       .push_back(5);
-                aPesosAlternativasTecnicoInfraestrutura.push_back(4);
-                aPesosAlternativasDesenvolvedorBackEnd .push_back(2);
-                aPesosAlternativasDesenvolvedorFrontEnd.push_back(2);
-                aPesosAlternativasSuporteTecnico       .push_back(4);
-                aPesosAlternativasAnalistaSistemas     .push_back(2);
-                aPesosAlternativasDBA                  .push_back(5);
 
                 bAlternativaJ = true;
             }; break;
@@ -540,14 +388,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 5;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 5;
             quizProfissoesTi.lSomaPontosDBA                   += 2;
-
-            aPesosAlternativasGestorProjetos       .push_back( 5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 1);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(-1);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-            aPesosAlternativasSuporteTecnico       .push_back( 5);
-            aPesosAlternativasAnalistaSistemas     .push_back( 5);
-            aPesosAlternativasDBA                  .push_back( 2);
         }; break;
         case 'b':
         {
@@ -558,14 +398,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 2;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 2;
             quizProfissoesTi.lSomaPontosDBA                   += 4;
-
-            aPesosAlternativasGestorProjetos       .push_back( 4);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 2);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 2);
-            aPesosAlternativasSuporteTecnico       .push_back( 2);
-            aPesosAlternativasAnalistaSistemas     .push_back(-2);
-            aPesosAlternativasDBA                  .push_back( 4);
         }; break;
         case 'c':
         {
@@ -576,14 +408,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        -= 1;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 2;
             quizProfissoesTi.lSomaPontosDBA                   -= 1;
-
-            aPesosAlternativasGestorProjetos       .push_back( 5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-2);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(-4);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(-3);
-            aPesosAlternativasSuporteTecnico       .push_back(-1);
-            aPesosAlternativasAnalistaSistemas     .push_back( 2);
-            aPesosAlternativasDBA                  .push_back(-1);
         }; break;
         case 'd':
         {
@@ -594,14 +418,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 1;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 2;
             quizProfissoesTi.lSomaPontosDBA                   += 5;
-
-            aPesosAlternativasGestorProjetos       .push_back(-2);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 2);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 5);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-            aPesosAlternativasSuporteTecnico       .push_back( 1);
-            aPesosAlternativasAnalistaSistemas     .push_back( 2);
-            aPesosAlternativasDBA                  .push_back( 5);
         }; break;
         case 'e':
         {
@@ -612,14 +428,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        -= 4;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 4;
             quizProfissoesTi.lSomaPontosDBA                   += 4;
-
-            aPesosAlternativasGestorProjetos       .push_back( 5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-4);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 2);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 3);
-            aPesosAlternativasSuporteTecnico       .push_back(-4);
-            aPesosAlternativasAnalistaSistemas     .push_back( 4);
-            aPesosAlternativasDBA                  .push_back( 4);
         }; break;
         default: cout << "Opcao invalida." << endl;
             return false;
@@ -646,14 +454,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        -= 5;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 4;
             quizProfissoesTi.lSomaPontosDBA                   -= 3;
-
-            aPesosAlternativasGestorProjetos       .push_back(-5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 1);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 3);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 0);
-            aPesosAlternativasSuporteTecnico       .push_back(-5);
-            aPesosAlternativasAnalistaSistemas     .push_back(-4);
-            aPesosAlternativasDBA                  .push_back(-3);
         }; break;
         case 'b':
         {
@@ -664,14 +464,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 2;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 3;
             quizProfissoesTi.lSomaPontosDBA                   += 4;
-
-            aPesosAlternativasGestorProjetos       .push_back(5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(2);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(4);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(4);
-            aPesosAlternativasSuporteTecnico       .push_back(2);
-            aPesosAlternativasAnalistaSistemas     .push_back(3);
-            aPesosAlternativasDBA                  .push_back(4);
         }; break;
         case 'c':
         {
@@ -682,14 +474,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 5;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 5;
             quizProfissoesTi.lSomaPontosDBA                   += 1;
-
-            aPesosAlternativasGestorProjetos       .push_back( 3);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(-4);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 3);
-            aPesosAlternativasSuporteTecnico       .push_back( 5);
-            aPesosAlternativasAnalistaSistemas     .push_back( 5);
-            aPesosAlternativasDBA                  .push_back( 1);
         }; break;
         case 'd':
         {
@@ -700,14 +484,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 3;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 4;
             quizProfissoesTi.lSomaPontosDBA                   -= 3;
-
-            aPesosAlternativasGestorProjetos       .push_back(-3);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(-3);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(-3);
-            aPesosAlternativasSuporteTecnico       .push_back( 3);
-            aPesosAlternativasAnalistaSistemas     .push_back(-4);
-            aPesosAlternativasDBA                  .push_back(-3);
         }; break;
         default: cout << "Opcao invalida." << endl;
             return false;
@@ -734,14 +510,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        -= 3;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 2;
             quizProfissoesTi.lSomaPontosDBA                   += 2;
-
-            aPesosAlternativasGestorProjetos       .push_back( 5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-3);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 3);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-            aPesosAlternativasSuporteTecnico       .push_back(-3);
-            aPesosAlternativasAnalistaSistemas     .push_back( 2);
-            aPesosAlternativasDBA                  .push_back( 2);
         }; break;
         case 'b':
         {
@@ -752,14 +520,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 5;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 3;
             quizProfissoesTi.lSomaPontosDBA                   += 4;
-
-            aPesosAlternativasGestorProjetos       .push_back(4);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(4);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(1);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(2);
-            aPesosAlternativasSuporteTecnico       .push_back(5);
-            aPesosAlternativasAnalistaSistemas     .push_back(3);
-            aPesosAlternativasDBA                  .push_back(4);
         }; break;
         case 'c':
         {
@@ -770,14 +530,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        -= 4;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 0;
             quizProfissoesTi.lSomaPontosDBA                   -= 1;
-
-            aPesosAlternativasGestorProjetos       .push_back( 3);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 3);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 2);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 5);
-            aPesosAlternativasSuporteTecnico       .push_back(-4);
-            aPesosAlternativasAnalistaSistemas     .push_back( 0);
-            aPesosAlternativasDBA                  .push_back(-1);
         }; break;
         case 'd':
         {
@@ -788,14 +540,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 2;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 2;
             quizProfissoesTi.lSomaPontosDBA                   += 1;
-
-            aPesosAlternativasGestorProjetos       .push_back(4);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(3);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(0);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(5);
-            aPesosAlternativasSuporteTecnico       .push_back(2);
-            aPesosAlternativasAnalistaSistemas     .push_back(2);
-            aPesosAlternativasDBA                  .push_back(1);
         }; break;
         default: cout << "Opcao invalida." << endl;
             return false;
@@ -825,14 +569,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 1;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 2;
             quizProfissoesTi.lSomaPontosDBA                   += 5;
-
-            aPesosAlternativasGestorProjetos       .push_back(-4);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-2);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 3);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(-3);
-            aPesosAlternativasSuporteTecnico       .push_back( 1);
-            aPesosAlternativasAnalistaSistemas     .push_back( 2);
-            aPesosAlternativasDBA                  .push_back( 5);
         }; break;
         case 'b':
         {
@@ -843,14 +579,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 2;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 3;
             quizProfissoesTi.lSomaPontosDBA                   -= 2;
-
-            aPesosAlternativasGestorProjetos       .push_back(-3);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(-2);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(-4);
-            aPesosAlternativasSuporteTecnico       .push_back( 2);
-            aPesosAlternativasAnalistaSistemas     .push_back(-3);
-            aPesosAlternativasDBA                  .push_back(-2);
         }; break;
         case 'c':
         {
@@ -861,14 +589,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        -= 4;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 5;
             quizProfissoesTi.lSomaPontosDBA                   += 0;
-
-            aPesosAlternativasGestorProjetos       .push_back( 3);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 2);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 4);
-            aPesosAlternativasSuporteTecnico       .push_back(-4);
-            aPesosAlternativasAnalistaSistemas     .push_back(-5);
-            aPesosAlternativasDBA                  .push_back( 0);
         }; break;
         case 'd':
         {
@@ -879,14 +599,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        -= 4;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      -= 5;
             quizProfissoesTi.lSomaPontosDBA                   -= 2;
-
-            aPesosAlternativasGestorProjetos       .push_back( 3);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 5);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 3);
-            aPesosAlternativasSuporteTecnico       .push_back(-4);
-            aPesosAlternativasAnalistaSistemas     .push_back(-5);
-            aPesosAlternativasDBA                  .push_back(-2);
         }; break;
         case 'e':
         {
@@ -897,14 +609,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 2;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 2;
             quizProfissoesTi.lSomaPontosDBA                   += 3;
-
-            aPesosAlternativasGestorProjetos       .push_back( 2);
-            aPesosAlternativasTecnicoInfraestrutura.push_back( 5);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(-4);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(-2);
-            aPesosAlternativasSuporteTecnico       .push_back( 2);
-            aPesosAlternativasAnalistaSistemas     .push_back( 2);
-            aPesosAlternativasDBA                  .push_back( 3);
         }; break;
         case 'f':
         {
@@ -915,14 +619,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 0;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 4;
             quizProfissoesTi.lSomaPontosDBA                   += 4;
-
-            aPesosAlternativasGestorProjetos       .push_back(4);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(4);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back(2);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back(4);
-            aPesosAlternativasSuporteTecnico       .push_back(0);
-            aPesosAlternativasAnalistaSistemas     .push_back(4);
-            aPesosAlternativasDBA                  .push_back(4);
         }; break;
         case 'g':
         {
@@ -933,14 +629,6 @@ bool CQuizProfissoesTi::MostraMenu(CQuizProfissoesTi& quizProfissoesTi)
             quizProfissoesTi.lSomaPontosSuporteTecnico        += 4;
             quizProfissoesTi.lSomaPontosAnalistaSistemas      += 5;
             quizProfissoesTi.lSomaPontosDBA                   += 0;
-
-            aPesosAlternativasGestorProjetos       .push_back( 5);
-            aPesosAlternativasTecnicoInfraestrutura.push_back(-3);
-            aPesosAlternativasDesenvolvedorBackEnd .push_back( 4);
-            aPesosAlternativasDesenvolvedorFrontEnd.push_back( 3);
-            aPesosAlternativasSuporteTecnico       .push_back( 4);
-            aPesosAlternativasAnalistaSistemas     .push_back( 5);
-            aPesosAlternativasDBA                  .push_back( 0);
         }; break;
         default: cout << "Opcao invalida." << endl;
             return false;
@@ -975,8 +663,6 @@ void CQuizProfissoesTi::DefineProfissao(CQuizProfissoesTi& quizProfissoesTi)
         cout << "- Visao integrada"                    << endl;
         cout << "- Organizacao"                        << endl;
         cout << "- Constante processo de aprendizagem" << endl;
-
-        DefineMatchProfissao(aPesosAlternativasGestorProjetos);
     }
     else if (dPorcentagemVencedora == quizProfissoesTi.dPorcentagemTecnicoInfraestrutura)
     {
@@ -986,8 +672,6 @@ void CQuizProfissoesTi::DefineProfissao(CQuizProfissoesTi& quizProfissoesTi)
         cout << "- Pensar fora da caixa"                                     << endl;
         cout << "- Gostar de mexer com pecas e a parte exterior de maquinas" << endl;
         cout << "- Conhecimento tecnico"                                     << endl;
-
-        DefineMatchProfissao(aPesosAlternativasTecnicoInfraestrutura);
     }
     else if (dPorcentagemVencedora == quizProfissoesTi.dPorcentagemDesenvolvedorBackEnd)
     {
@@ -998,8 +682,6 @@ void CQuizProfissoesTi::DefineProfissao(CQuizProfissoesTi& quizProfissoesTi)
         cout << "- Ter raciocinio logico"                   << endl;
         cout << "- Fazer a analise de informacoes e falhas" << endl;
         cout << "- Pensar na qualidade do sistema"          << endl;
-
-        DefineMatchProfissao(aPesosAlternativasDesenvolvedorBackEnd);
     }
     else if (dPorcentagemVencedora == quizProfissoesTi.dPorcentagemDesenvolvedorFrontEnd)
     {
@@ -1009,8 +691,6 @@ void CQuizProfissoesTi::DefineProfissao(CQuizProfissoesTi& quizProfissoesTi)
         cout << "- Refletir sobre a experiencia do usuario" << endl;
         cout << "- Ter raciocinio logico"                   << endl;
         cout << "- Pensar na padronizacao do sistema"       << endl;
-
-        DefineMatchProfissao(aPesosAlternativasDesenvolvedorFrontEnd);
     }
     else if (dPorcentagemVencedora == quizProfissoesTi.dPorcentagemSuporteTecnico)
     {
@@ -1020,8 +700,6 @@ void CQuizProfissoesTi::DefineProfissao(CQuizProfissoesTi& quizProfissoesTi)
         cout << "- Ter raciocinio logico para solucao de problemas"                                                 << endl;
         cout << "- Auxiliar os profissionais e usuarios"                                                            << endl;
         cout << "- Garantir a disponibilidade, estabilidade e atualizacao do ambiente de TI(hardwares e softwares)" << endl;
-
-        DefineMatchProfissao(aPesosAlternativasSuporteTecnico);
     }
     else if (dPorcentagemVencedora == quizProfissoesTi.dPorcentagemAnalistaSistemas)
     {
@@ -1031,8 +709,6 @@ void CQuizProfissoesTi::DefineProfissao(CQuizProfissoesTi& quizProfissoesTi)
         cout << "- Saber gerenciar os dados na tela"                << endl;
         cout << "- Lidar com as demandas do mercado e dos clientes" << endl;
         cout << "- Auxiliar e prestar servicos aos clientes"        << endl;
-
-        DefineMatchProfissao(aPesosAlternativasAnalistaSistemas);
     }
     else if (dPorcentagemVencedora == quizProfissoesTi.dPorcentagemDBA)
     {
@@ -1041,8 +717,6 @@ void CQuizProfissoesTi::DefineProfissao(CQuizProfissoesTi& quizProfissoesTi)
         cout << "- Experiencia em uma linguagem de Script"                << endl;
         cout << "- Ter raciocinio logico"                                 << endl;
         cout << "- Gerenciar dados com cuidado e responsabilidade"        << endl;
-
-        DefineMatchProfissao(aPesosAlternativasDBA);
     }
 }
 
@@ -1059,58 +733,4 @@ void CQuizProfissoesTi::MostraResultados(CQuizProfissoesTi& quizProfissoesTi)
     cout << "Administrador de Banco de Dados (DBA): " << quizProfissoesTi.dPorcentagemDBA                   << "%" << endl << endl;
 
     system("pause");
-}
-
-void CQuizProfissoesTi::DefineMatchProfissao(std::vector<long> aPesosAlternativas)
-{
-    vector<long> aModaPesos = {0};
-    aModaPesos.resize(11);
-
-    for (unsigned long idxPesoAlternativa = 0; idxPesoAlternativa < aPesosAlternativas.size(); ++idxPesoAlternativa)
-    {
-        switch (aPesosAlternativas[idxPesoAlternativa])
-        {
-            case -5 : aModaPesos[ 0] += 1; break;
-            case -4 : aModaPesos[ 1] += 1; break;
-            case -3 : aModaPesos[ 2] += 1; break;
-            case -2 : aModaPesos[ 3] += 1; break;
-            case -1 : aModaPesos[ 4] += 1; break;
-            case  0 : aModaPesos[ 5] += 1; break;
-            case  1 : aModaPesos[ 6] += 1; break;
-            case  2 : aModaPesos[ 7] += 1; break;
-            case  3 : aModaPesos[ 8] += 1; break;
-            case  4 : aModaPesos[ 9] += 1; break;
-            case  5 : aModaPesos[10] += 1; break;
-        }
-    }
-
-    long lModaMaior = *max_element(aModaPesos.begin(), aModaPesos.end());
-    long lModaPeso = 0;
-
-    if (lModaMaior == aModaPesos[0])
-        lModaPeso = -5;
-    else if (lModaMaior == aModaPesos[1])
-        lModaPeso = -4;
-    else if (lModaMaior == aModaPesos[2])
-        lModaPeso = -3;
-    else if (lModaMaior == aModaPesos[3])
-        lModaPeso = -2;
-    else if (lModaMaior == aModaPesos[4])
-        lModaPeso = -1;
-    else if (lModaMaior == aModaPesos[5])
-        lModaPeso = 0;
-    else if (lModaMaior == aModaPesos[6])
-        lModaPeso = 1;
-    else if (lModaMaior == aModaPesos[7])
-        lModaPeso = 2;
-    else if (lModaMaior == aModaPesos[8])
-        lModaPeso = 3;
-    else if (lModaMaior == aModaPesos[9])
-        lModaPeso = 4;
-    else if (lModaMaior == aModaPesos[10])
-        lModaPeso = 5;
-
-    double dMatchProfissao = 20 * lModaPeso;
-
-    cout << "\nVoce tem " << dMatchProfissao << "% de chance de dar certo com essa profissao! Boa sorte!" << endl;
 }
